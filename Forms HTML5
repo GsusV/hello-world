@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-419">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+        <meta name="author" content="GsusV">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <h1>Formulario</h1>
+
+        <form>
+            <label for="Cedula de Identidad:">Cedula de Identidad</label><br>
+            <input type="number" id="dni" placeholder="Nro. Cédula" required><br>
+            <br>
+            <lebel for="Archivo">Archivo</lebel><br>
+            <input type="file"><br>
+            <br>
+            <label for="Nombre:">Nombre</label><br>
+            <input type="text" placeholder="Example: Juan..." required><br>
+            <br>
+            <label for="sexo:">sexo</label><br>
+            <input type="radio" name="sexo">Masculino<br>
+            <input type="radio" name="sexo">Femenino<br>
+            <br>
+            <label for="Fecha de Nacimiento">Fecha de Nacimiento</label><br>
+            <input type="date"><br>
+            <br>
+            <label for="Color Favorito">Color Favorito</label><br>
+            <input type="color"><br>
+            <br>
+            <label for="Nivel de Estudio">Nivel de Estudio</label><br>
+            <input type="checkbox" >Sin Estudios<br>
+            <input type="checkbox" >Bachiller<br>
+            <input type="checkbox" >Técnico<br>
+            <input type="checkbox" >Universitario<br>
+            <br>
+            <label for="País">País</label><br>
+            <select name="" id="" >
+            <option value="">Argentina</option>
+            <option value="">Brasil</option>
+            <option value="">Colombia</option>
+            <option value="">Venezuela</option><br>
+            <br>
+            </select>
+            <br>
+            <label type="email">Email</label><br>
+            <input type="email" placeholder="********@gmail.com"><br>
+            <br>
+            <label for="Contraseña">Contraseña</label><br>
+            <input type="password" placeholder="Nueva Contraseña" required><br>
+            <br>
+            <label for="Biografía">Biografía</label><br>
+            <textarea name=""></textarea><br>
+            <!-- (<-textarea name="" id="" cols="30" rows="10"></-textarea>) -->
+            <br>
+            <label for="limpiar">Limpiar Formulario</label><br>
+            <input type="reset"><br>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
